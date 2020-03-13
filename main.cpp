@@ -11,11 +11,11 @@ int main()
          << "A - B = "<<a-b<<'\n'
          << "A * B = "<<a*b<<'\n'
          << "A / B = "<<a/b<<'\n';
-    if(a>b)
+    if(a<b)
     {
         cout<<a;
     }
-    if(a<b)
+    if(a>b)
     {
         cout<<b;
     }
